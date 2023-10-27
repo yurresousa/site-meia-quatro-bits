@@ -1,0 +1,64 @@
+*{
+    font-family: 'josefin sans';
+}
+/* Inicio da formatação do header*/
+body{
+    background-color: rgba(240, 248, 255, 0.432);
+}
+header{
+    background-color: #fff;
+   
+}
+.fixar{
+    position:fixed;
+}
+.item-menu{
+    color: #072c69;
+    font-weight: 600;
+    margin-right: 2px;
+}
+.item-menu:hover{
+    color: #4182ea;
+    
+}
+.linkVerde{
+    background-color: #06B88E;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.linkVerde:hover{
+    background-color: #13d6a8;
+    color: #fff;
+
+}
+/* Set the border color to the desired color */
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(81,81,81,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+   }
+/*fim da formatação do header*/
+
+/*inicio da formatacao do primeiro painel*/
+.primeiroPainel{
+    background-image: url();
+
+}
+.blue{
+   color: #10176C;
+}
+.blue2{
+   background-color: #e6f4ff;
+}
+/*Fim da formatacao do primeiro painel*/
+
+/*inicio footer */
+footer{
+    background-color: #10176C;
+    color: white;
+    
+}
+footer ul li a{
+    font-size: small;
+}
+
+/* fim do footer*/
