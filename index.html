@@ -13,12 +13,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Meia4Bits</title>
 </head>
 
 <body >
 
-    <header class=" mb-5 ">
+    <header class=" mb-5">
         <div class="bg-light container fixed-top  ">
             <div class="">
                 <nav class="  navbar navbar-expand-lg pb-4">
@@ -32,10 +33,9 @@
                         <ul class="navbar-nav  ms-auto">
                             <li class="nav-item active"><a class="nav-link item-menu" href="#">SITE SOB MEDIDA</a></li>
                             <li class="nav-item"><a class="nav-link item-menu" href="#">SITE EXPRESSO</a></li>
-                            <li class="nav-item"><a class="nav-link item-menu" href="#">LOJA VIRTUAL</a></li>
                             <li class="nav-item"><a class="nav-link item-menu" href="#">CONSULTORIA SEO</a></li>
-                            <li class="nav-item"><a class="nav-link item-menu" href="#">PORTIFÓLIO</a></li>
-                            <li class="nav-item"><a class="nav-link item-menu" href="#">BLOG</a></li>
+                            <li class="nav-item"><a class="nav-link item-menu" href="#portifolio">PORTIFÓLIO</a></li>
+                            <li class="nav-item"><a class="nav-link item-menu" href="#sobre">SOBRE</a></li>
                             <li class="nav-item"><a class="nav-link item-menu linkVerde rounded-pill ps-3 pe-3" href="#"> (86)9819-40556</a></li>
                         </ul>
                     </div>
@@ -60,7 +60,7 @@
            </div>
 
         <div class="col-lg-6 text-center d-none d-lg-block">
-            <img src="./img/foguete.png" class="img-fluid" width="90%" alt="">
+            <img class="animate__animated animate__backInUp" src="./img/foguete.png" class="img-fluid" width="90%" alt="">
         </div>
         
     </div>
@@ -94,23 +94,34 @@
     </div>
 </section>
 <!--Portfólio-->
-<section id="portifolio mt-5 mb-5">
-    <div class="container">
-        <div class="row text-center">
-            <h5 class=" blue"></h5>
-            <h1 class="display-4 blue " >Portfólio</h1>
+<section id="portifolio">
+    <div class="container mt-3">
+        <h1 class="display-4 blue text-center my-5 " >Portfólio</h1>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center" ><img src="./img/portifolio/havagas.png" width="300px" height="190px" class="img-portifolio"   alt=""></div>
+            <div class="col-lg-3 col-md-6 col-sm-12  d-flex justify-content-center"><img src="./img/portifolio/chale.png" width="300px" height="190px" class="img-portifolio"   alt=""></div>
+            <div class="col-lg-3 col-md-6 col-sm-12  d-flex justify-content-center"><img src="./img/portifolio/finans.png" width="300px" height="190px" class="img-portifolio"   alt=""></div>
+            <div class="col-lg-3 col-md-6 col-sm-12  d-flex justify-content-center"><img src="./img/portifolio/museu.png" width="300px" height="190px" class="img-portifolio"   alt=""></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-3  col-md-6 col-sm-12  d-flex justify-content-center"><img src="./img/portifolio/noticias.png" width="300px" height="190px" class="img-portifolio" alt=""></div>
+            <div class="col-lg-3  col-md-6 col-sm-12  d-flex justify-content-center"><img src="./img/portifolio/blog.png" width="300px" height="190px" class="img-portifolio" alt=""></div>
+            <div class="col-lg-3  col-md-6 col-sm-12  d-flex justify-content-center"><img src="./img/portifolio/dispesas.png" width="300px" height="190px" class="img-portifolio" alt=""></div>
+            <div class="col-lg-3  col-md-6 col-sm-12  d-flex justify-content-center"><img src="./img/portifolio/galeria.png" width="300px" height="190px" class="img-portifolio" alt=""></div>
         </div>
     </div>
 </section>
 
 <!--Sobre-->
-<section id="sobre mt-5">
-    <div class="container">
+<section class="mt-5" id="sobre">
+    <div class="container pt-4 my-4">
         <div class="row text-center">
-            <h5 class=" blue"></h5>
-            <h1 class="display-4 blue">Sobre</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil odio praesentium id nam voluptas assumenda 
-                sunt aspernatur ipsa veniam amet, cum magni molestias optio corporis sit pariatur alias rerum incidunt!</p>
+            <div class="col">
+                <h1 class="display-4 blue">Sobre</h1>
+                    <p>Somos uma empresa genuinamente Piauiense, nascemos com o propósito de incluir e abrir possibilidades para empresas que ainda não estão na internet,
+                        dando assim mais visibilidade para o seu negócio. 
+                    </p>
+            </div>
         </div>
     </div>
 </section>
@@ -118,6 +129,15 @@
     <div class="container d-flex flex-row justify-content-between">
         <p id="footer-logo" class=""><span>Meia4Bits</span>&copy;2023</p>
 
+        <div>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link text-white " href="#">SITE SOB MEDIDA</a></li>
+                <li class="nav-item"><a class="nav-link text-white " href="#">SITE EXPRESSO</a></li>
+                <li class="nav-item"><a class="nav-link text-white " href="#">CONSULTORIA SEO</a></li>
+                <li class="nav-item"><a class="nav-link text-white " href="#portifolio">PORTIFÓLIO</a></li>
+                <li class="nav-item"><a class="nav-link text-white " href="#sobre">SOBRE</a></li>
+            </ul>
+        </div>
 
         <div id="footer-redes-sociais" class="">
             <ul class="navbar-nav flex-row ">

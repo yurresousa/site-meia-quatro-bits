@@ -51,6 +51,15 @@ header{
 }
 /*Fim da formatacao do primeiro painel*/
 
+/*inicio formatação do portifólio*/
+.img-portifolio:hover{
+    cursor: pointer;
+    width: 310px;
+    height: 200px;
+  
+}
+/*Fim formatação do portifólio*/
+
 /*inicio footer */
 footer{
     background-color: #10176C;
